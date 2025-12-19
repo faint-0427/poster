@@ -1,0 +1,51 @@
+html{background: #ddd;color: #000; font-family: 'Times New Roman', Times, serif;}
+.inner{max-width: 1540px; padding: 0 20px ; margin: 0 auto; }
+#main .graphic_list { max-width: 1740px; margin: 100px auto;padding: 0 20px; 
+text-align: center; }
+
+
+#main h1 span{font-size: 4rem; font-weight: 100;}
+#main h1{font-size: 6rem; text-align: center;text-transform: uppercase; margin: 100px 0 ;}
+
+.poster_list ul {display: flex; margin: 0 auto;  width: 1300px; height: 100%; gap: 50px;}
+.poster_list ul li{display: flex;  width: 800px; height: 100%; gap: 50px; transition: all 0.5s;}
+.poster_list ul li:hover{transform: scale(1.2); z-index: 20; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+.poster_list ul  li img{width: 100%;}
+
+
+
+
+
+.graphic .inner{ 
+    max-width: 1540px;
+    margin: 0 auto; 
+    padding: 0; 
+}
+.graphic ul{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+}
+.graphic ul li{ 
+    color: #fff; 
+    text-align: center; 
+    width: 10%; 
+    height: 650px; 
+    display: flex; 
+    justify-content: center; 
+    transition: all 0.8s; 
+    align-items: center; 
+    filter: drop-shadow(5);
+}
+.graphic ul li.active{width: 55%;}
+
+
+
+
+
+@media(max-width:1024px){.graphic ul li{width: 50%; height: 550px; }.graphic ul li.active{width: 50%; }}
+@media(max-width:800px){.graphic ul li{width: 100%; height: 450px; }.graphic ul li.active{width: 100%; }}
+#footer{max-width: 1920px; margin: 0 auto; text-align: center;}
