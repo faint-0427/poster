@@ -23,7 +23,7 @@ const poster_list = new Swiper('.poster_list', {
   },
   loop:true,
     mousewheel: {
-    invert: true,
+    invert: false,
   },
   
 });
